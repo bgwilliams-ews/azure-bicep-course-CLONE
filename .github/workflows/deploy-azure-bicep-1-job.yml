@@ -7,7 +7,7 @@ on:
 
 env:
   RESOURCE_GROUP: rg-bicep-github-actions-29
-  WEBAPP_NAME: bicep-029
+  WEBAPP_NAME: bicep-029-bgwc55
   LOCATION: westeurope
   TEMPLATE: 01-bicep-webapp/webapp-linux.bicep
 
