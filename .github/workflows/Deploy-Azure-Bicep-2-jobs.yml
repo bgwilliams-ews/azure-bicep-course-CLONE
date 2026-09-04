@@ -13,7 +13,7 @@ on:
 
 env:
   RESOURCE_GROUP: rg-bicep-github-actions-037
-  WEBAPP_NAME: bicep-037
+  WEBAPP_NAME: bicep-037-bgwc55
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,7 +24,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
 
       - name: Login to Azure
         uses: Azure/login@v1.4.3
@@ -60,7 +60,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
 
       - name: Login to Azure
         uses: Azure/login@v1.4.3
